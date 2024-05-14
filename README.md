@@ -1,3 +1,15 @@
-# Function Chaining
+# Function Sample
 
-This directory contains an executable version of [this](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-sequence?tabs=python) tutorial. Please review the link above for instructions on how to run it.
+This Sample is Durable Function 
+To Deploy to Azure Function 
+
+-  Install the dependencies
+<pre>
+pip install -r requirements.txt  --target ./.python_packages/lib/site-packages
+</pre>
+
+- Deploy using Azure Function Tools
+
+<pre>
+func azure functionapp publish funtionName --no-build --force
+</pre>
